@@ -1,0 +1,68 @@
+header{
+    max-width: 960px;
+    margin: 0 auto;
+    background-image: url(../images/header.jpg);
+    height: 300px;
+}
+
+#company{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    padding-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 6px #000000;
+}
+
+#slogan{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 6px #2C252B;
+}
+
+main{
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #8D7C73;
+}
+
+.mainheader{
+    color: #795C42;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+}
+
+ul{
+    color: #2C252B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+#greeting{
+    color: #2C252B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 15px;
+}
+
+footer{
+    background-color: #8D7C73;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    max-width: 960px;
+    margin: 0 auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
