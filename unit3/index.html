@@ -5,8 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>03 Guessing Game</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1 class="title"></h1>
+        <h2 class="subtitle"></h2>
+    </header>
+    <main> 
+        <h1>Hi/Lo Guessing Game</h1>
+        <h2>What I learned:</h2> 
+        <ul>
+            <li>Implement functions</li>
+            <li>Implement a multi level if-then-else</li>
+            <li>Use innerText to provide user feedback</li>
+            <li>Implement a switch statement</li>
+            <li>Dynamically load a graphic</li>
+            <li>Create and append an image element</li>
+        </ul>
+
+        <h2>Instructions</h2>
+        <p>In this game you will try to guess a number between 1 and 16 in as few tries as possible.
+            You will be awarded a ribbon for your skills. Good luck! If you would like to play again please
+            refresh the page.
+        </p>
+        
+        <div>
+            <h3>Play</h3>
+            <div>
+                <input id="guess" type="number" placeholder="Number">
+                <button onclick="evalGuess()">Guess!</button>
+            </div>
+        </div>
+        <div>
+            <h3>Trys</h3>
+        </div>
+        <div>
+            <h3>Feedback</h3>
+            <div id="feedback"></div>
+        </div>
+        <div>
+            <h3>Award</h3>
+        </div>
+    </main>
+    <footer>
+        <p>Assignment for DGM 2760 by Meleah Gearig</p>
+    </footer>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
