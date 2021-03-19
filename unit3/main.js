@@ -37,7 +37,7 @@ function evalGuess() {
 
 function giveAward() {
     console.log(`Congratulations!`)
-    let imagePath = ('#')
+    let imagePath = ('images/participation.png')
     switch (totalGuesses) {
         case 1:
         case 2:
@@ -65,6 +65,7 @@ function giveAward() {
         case 16:
             imagePath = 'images/green.jpg'
             break;
+        default: feedback.innerText = `Sorry you did not win, refresh the page to play again!`
 
     }
 
@@ -72,16 +73,12 @@ function giveAward() {
     awardImage.setAttribute('src', imagePath)
 
     const ribbon = document.querySelector('#awards')
+
+    while (ribbon.firstChild) {
+        ribbon.removeChild(ribbon.firstChild);
+    }
     
     ribbon.appendChild(awardImage)
 
-    if (ribbon.hasChildNodes()) {
-        
-        const newAward = document.createElement('img')
-        newAward.setAttribute('src', imagePath)
-        return ribbon.replaceChild(newAward, awardImage)
-    }
 
 }
-//var newChild = ribbon.nextSibling
-        //ribbon.replaceChild(newChild, awardImage)
