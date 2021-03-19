@@ -74,9 +74,12 @@ function giveAward() {
     const ribbon = document.querySelector('#awards')
     
     ribbon.appendChild(awardImage)
-    
+
     if (ribbon.hasChildNodes()) {
-        ribbon.replaceWith(ribbon.lastChild, awardImage)
+        
+        const newAward = document.createElement('img')
+        newAward.setAttribute('src', imagePath)
+        return ribbon.replaceChild(newAward, awardImage)
     }
 
 }
