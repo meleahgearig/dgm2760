@@ -13,7 +13,7 @@
         <h2 class="subtitle"></h2>
     </header>
     <main> 
-        <h1>Hi/Lo Guessing Game</h1>
+        <h1 id="pagetitle">Hi/Lo Guessing Game</h1>
         <h2>What I learned:</h2> 
         <ul>
             <li>Implement functions</li>
@@ -26,28 +26,30 @@
 
         <h2>Instructions</h2>
         <p>In this game you will try to guess a number between 1 and 16 in as few tries as possible.
-            You will be awarded a ribbon for your skills. Good luck! If you would like to play again please
-            refresh the page.
+            You will be awarded a ribbon for your skills. 
+            <br> Good luck! If you would like to play again please refresh the page.
         </p>
         
-        <div>
-            <h3>Play</h3>
+        <div id="gameArea">
             <div>
-                <input id="guess" type="number" placeholder="Number">
-                <button onclick="evalGuess()">Guess!</button>
+                <h3>Play</h3>
+                <div id="numberGuess">
+                    <input id="guess" type="number" placeholder="Number">
+                    <button onclick="evalGuess()">Guess!</button>
+                </div>
             </div>
-        </div>
-        <div>
-            <h3>Trys</h3>
-            <div id="attempts"></div>
-        </div>
-        <div>
-            <h3>Feedback</h3>
-            <div id="feedback"></div>
-        </div>
-        <div>
-            <h3>Award</h3>
-            <div id="awards"></div>
+            <div>
+                <h3>Trys</h3>
+                <div id="attempts"></div>
+            </div>
+            <div>
+                <h3>Feedback</h3>
+                <div id="feedback"></div>
+            </div>
+            <div>
+                <h3>Award</h3>
+                <div id="awards"></div>
+            </div>
         </div>
     </main>
     <footer>

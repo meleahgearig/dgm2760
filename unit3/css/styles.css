@@ -1,0 +1,150 @@
+header{
+    max-width: 1064px;
+    margin: 0 auto;
+    background-image: url(../images/mario_header.jpg);
+    height: 300px;
+}
+
+main{
+    max-width: 1064px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #8D7C73;
+}
+
+.title{
+    color: #fff;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 6px #000000;
+}
+
+.subtitle{
+    color: #fff;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 6px #2C252B;
+}
+
+h1{
+    color: #FAC009;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+}
+
+h2{
+    color: #F90202;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+h3{
+    color: #06920A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+ul{
+    color: #08d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+p{
+    color: #0088DD;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+button{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #F90202;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+button:hover{
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    transition: all 0.4s ease 0s;
+}
+
+button:focus {outline:0;}
+
+#attempts{
+    color: #0088DD;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold; 
+}
+
+#feedback{
+    color: #0088DD;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#gameArea{
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#numberGuess{
+    display: flex;
+    flex-direction: column;
+    align: center;
+}
+
+input{
+    width: 5em;
+    height: 2em;
+    background-color: #B9EAFB;
+    border: none;
+    padding: .5rem;
+    border-radius: 10px;
+    color: #F90202;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    box-align: center;
+}
+
+input:focus {outline:0;}
+
+#awards img{
+    height: 15em;
+}
+
+footer{
+    background-color: #B9EAFB;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    max-width: 1064px;
+    margin: 0 auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

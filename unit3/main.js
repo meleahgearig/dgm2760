@@ -65,7 +65,8 @@ function giveAward() {
         case 16:
             imagePath = 'images/green.jpg'
             break;
-        default: feedback.innerText = `Sorry you did not win, refresh the page to play again!`
+        default: feedback.innerText = `Sorry you did not win.
+        Refresh the page to play again!`
 
     }
 
