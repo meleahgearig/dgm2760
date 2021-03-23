@@ -53,21 +53,21 @@ function getFortune(fate) {
     let message
     switch (fate) {
         case 1:
-            message = `travel to an exotic place for free`
+            message = "travel to an exotic place for free"
             break
         case 2:
-            message = `find the love of your life`
+            message = "find the love of your life"
             break
         case 3:
-            message = `uncover something unexpected that will lead you on a path of curiousity`
+            message = "uncover something unexpected that will lead you on a path of curiousity"
             break
         case 4:
-            message = `want to be left alone due to cosmic circumstances`
+            message = "want to be left alone due to cosmic circumstances"
             break
         case 5:
-            message = `need to avoid letting small inconveniences get to you`
-    
-        default: `Some sort of error occurred.`
+            message = "need to avoid letting small inconveniences get to you"
+            break
+        default: "Some sort of error occurred."
             break;
     }
     return message
