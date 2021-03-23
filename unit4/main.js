@@ -79,7 +79,8 @@ function getFortune(fate) {
   let day = getRandomIntInclusive(1, 30)
 
   const monthName = getMonthName(month)
-  const fotune = getFortune(fate)
+  const fortune = getFortune(fate)
+
 
   const fortuneRevealed = `On ${monthName} ${day}, you will ${fortune}.`
 
