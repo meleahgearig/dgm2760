@@ -77,14 +77,15 @@ document.querySelector('#sortTrees').onclick = () => {
 }
 
 // Make all trees lowercase
-let lowerTrees = trees.map(tree => tree.toLowerCase())
+
 
 document.querySelector('#lowerTrees').onclick = () => {
-    
+    let lowerTrees = trees.map(tree => tree.toLowerCase())
     console.log(lowerTrees)
-    let lowerTreeList = ''
-    lowerTrees.forEach(tree => {
-        lowerTreeList += `${tree} <br>`
-    })
-    displayResults.innerHTML = `${lowerTreeList} <span>${trees.length} elements long </span>`
-}
+    displayResults.innerHTML = `${lowerTrees} <span>${trees.length} elements long </span>`
+}    
+    // let lowerTreeList = ''
+    // lowerTrees.forEach(tree => {
+    //     lowerTreeList += `${tree} <br>`
+    // })
+    
