@@ -1,0 +1,116 @@
+header{
+    max-width: 1064px;
+    margin: 0 auto;
+    background-image: url(../images/tree.jpg);
+    height: 200px;
+}
+
+main{
+    max-width: 1064px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #062601;
+}
+
+.title{
+    color: #fff;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 6px #000000;
+}
+
+.subtitle{
+    color: #fff;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 6px #2C252B;
+}
+
+h1{
+    color: #062601;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+}
+
+h2{
+    color: #0F4001;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+ul{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+button{
+    background-color: #B0C90B;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+button:hover{
+    background-color: #BBE2F2;
+}
+
+button:focus{
+    outline: none;
+}
+
+#treelist{
+    background-color: #BBE2F2;
+    height: 400px;
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+}
+
+#displayResults{
+    font-family: 'Times New Roman', Times, serif;
+    color: #4F7302;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#displayResults span{
+    color: #B0C90B;
+}
+
+#error{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkred;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#maincontent{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #BBE2F2;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    max-width: 1064px;
+    margin: 0 auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
