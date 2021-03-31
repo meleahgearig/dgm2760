@@ -1,5 +1,5 @@
 // Create an array with 4 trees listed
-const trees = ['oak', 'Pine', 'aspen', 'Bamboo']
+let trees = ['oak', 'Pine', 'aspen', 'Bamboo']
 const errorElement = document.querySelector('#error')
 const displayResults = document.querySelector('#displayResults')
 
@@ -25,6 +25,7 @@ redwood.onclick = addTreeStart; */
 // More concise version of add a redwood to the end
 
 document.querySelector('#add_redwood').onclick = () => {
+    errorElement.textContent = ''
     trees.push('redwood')
     listTrees()
 }
@@ -32,6 +33,7 @@ document.querySelector('#add_redwood').onclick = () => {
 // Add a pear to the start
 
 document.querySelector('#add_pear').onclick = () => {
+    errorElement.textContent = ''
     trees.unshift('Pear')
     listTrees()
 }
@@ -39,6 +41,7 @@ document.querySelector('#add_pear').onclick = () => {
 // Remove first tree
 
 document.querySelector('#remove_tree1').onclick = () => {
+    errorElement.textContent = ''
     if (trees.length > 0) {
         trees.shift()
         listTrees()
@@ -50,6 +53,7 @@ document.querySelector('#remove_tree1').onclick = () => {
 // Remove second tree
 
 document.querySelector('#remove_tree2').onclick = () => {
+    errorElement.textContent = ''
     if (trees.length > 1) {
         trees.splice(1, 1)
         listTrees()
@@ -61,6 +65,7 @@ document.querySelector('#remove_tree2').onclick = () => {
 // Remove last tree
 
 document.querySelector('#remove_treeLast').onclick = () => {
+    errorElement.textContent = ''
     if (trees.length > 0) {
         trees.pop()
         listTrees()
@@ -72,20 +77,46 @@ document.querySelector('#remove_treeLast').onclick = () => {
 // Sort the trees A>Z
 
 document.querySelector('#sortTrees').onclick = () => {
+    errorElement.textContent = ''
     trees.sort()
     listTrees()
 }
 
 // Make all trees lowercase
 
-
 document.querySelector('#lowerTrees').onclick = () => {
-    let lowerTrees = trees.map(tree => tree.toLowerCase())
+    errorElement.textContent = ''
+    trees = trees.map(tree => tree.toLowerCase())
     console.log(lowerTrees)
-    displayResults.innerHTML = `${lowerTrees} <span>${trees.length} elements long </span>`
-}    
-    // let lowerTreeList = ''
-    // lowerTrees.forEach(tree => {
-    //     lowerTreeList += `${tree} <br>`
-    // })
-    
+    let lowerTreeList = ''
+    trees.forEach(tree => {
+        lowerTreeList += `${tree} <br>`
+    })
+    displayResults.innerHTML = `${lowerTreeList} <span>${trees.length} elements long </span>`
+}
+
+// Get tree name of #3
+
+document.querySelector('#showName3').onclick = () => {
+    errorElement.textContent = ''
+    let tree3 = trees[2]
+    console.log(tree3)
+    if (trees.length > 2) {
+        errorElement.innerHTML = `${tree3}`
+    } else {
+        errorElement.textContent = 'Not enough trees.'
+    }
+}
+
+// Get tree name of #4
+
+document.querySelector('#showName4').onclick = () => {
+    errorElement.textContent = ''
+    let tree4 = trees[3]
+    console.log(tree4)
+    if (trees.length > 3) {
+        errorElement.innerHTML = `${tree4}`
+    } else {
+        errorElement.textContent = 'Not enough trees.'
+    }
+}
