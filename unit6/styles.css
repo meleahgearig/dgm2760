@@ -1,0 +1,113 @@
+header{
+    max-width: 1064px;
+    margin: 0 auto;
+    background-image: url(images/cinderella.jpg);
+    height: 200px;
+}
+
+main{
+    max-width: 1064px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #062601;
+}
+
+.title{
+    color: #fff;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 6px #000000;
+}
+
+.subtitle{
+    color: #fff;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 6px #2C252B;
+}
+
+#bodyArea{
+    display: flex;
+    justify-content: space-around;
+}
+
+#storyArea{
+    max-width: 520px;
+}
+
+textarea{
+    background-color: #F2D2B6;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#2C3359;
+}
+
+h1{
+    color: #F2A29B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+}
+
+h2{
+    color: #2C3359;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+ul{
+    color: #F2A29B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+button{
+    background-color: #2C3359;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 180px;
+}
+
+button:hover{
+    background-color: #F2A29B;
+}
+
+button:focus{
+    outline: none;
+}
+
+#story{
+    color: #2C3359;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+#story span{
+    color: hotpink;
+}
+
+footer{
+    background-color: #2C3359;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    max-width: 1064px;
+    margin: 0 auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
