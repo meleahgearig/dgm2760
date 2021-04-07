@@ -1,0 +1,99 @@
+header{
+    max-width: 1064px;
+    margin: 0 auto;
+    background-image: url(images/pizza.jpg);
+    height: 200px;
+}
+
+main{
+    max-width: 1064px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #062601;
+}
+
+.title{
+    color: #fff;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 6px #000000;
+}
+
+.subtitle{
+    color: #fff;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 6px #2C252B;
+}
+
+h1{
+    color: #BF391B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+}
+
+h2{
+    color: #D9753B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+ul{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+label{
+    color: #688C4F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#feedback{
+    color: #688C4F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button{
+    background-color: #BF391B;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 180px;
+}
+
+button:hover{
+    background-color: #D9753B;
+}
+
+button:focus{
+    outline: none;
+}
+
+footer{
+    background-color: #D9753B;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    max-width: 1064px;
+    margin: 0 auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
