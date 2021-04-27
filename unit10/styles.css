@@ -1,0 +1,100 @@
+header{
+    max-width: 1064px;
+    margin: 0 auto;
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+main{
+    max-width: 1064px;
+    margin: 0 auto;
+    border: 1px solid #151738;
+}
+
+.title{
+    color: #fff;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+
+.subtitle{
+    color: #fff;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+h1{
+    color: #151738;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    padding-left: 10px;
+}
+
+h2{
+    color: #002F2F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+h3{
+    color: #046B80;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+a{
+    color: #21BF75;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #046B80;
+}
+
+ul{
+    color: #A7A37E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.hotels{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    padding: 20px;
+}
+
+p{
+    color: #002F2F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+footer{
+    background-color: #002F2F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    max-width: 1064px;
+    margin: 0 auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+}
